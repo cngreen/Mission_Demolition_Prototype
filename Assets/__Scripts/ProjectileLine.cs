@@ -47,13 +47,13 @@ public class ProjectileLine : MonoBehaviour {
 			Vector3 launchPosDiff = pt - launchPos;
 			points.Add (pt + launchPosDiff);
 			points.Add (pt);
-			line.numPositions (2);
+			line.numPositions = 2;
 			line.SetPosition (0, points [0]);
 			line.SetPosition (1, points [1]);
 			line.enabled = true;
 		} else {
 			points.Add (pt);
-			line.numPositions (points.Count);
+			line.numPositions = points.Count;
 			line.SetPosition (points.Count - 1, lastPoint);
 			line.enabled = true;
 		}

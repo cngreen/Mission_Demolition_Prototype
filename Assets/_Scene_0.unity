@@ -1010,6 +1010,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1106628578}
   - component: {fileID: 1106628579}
+  - component: {fileID: 1106628580}
   m_Layer: 0
   m_Name: ProjectileLine
   m_TagString: Untagged
@@ -1039,7 +1040,7 @@ LineRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_MotionVectors: 0
+  m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
   m_Materials:
@@ -1128,6 +1129,22 @@ LineRenderer:
     alignment: 0
     textureMode: 0
   m_UseWorldSpace: 1
+--- !u!114 &1106628580
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1106628577}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce930765c18b844fe8a53d3005302542, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minDist: 0.1
+  _____________________: 0
+  line: {fileID: 0}
+  _poi: {fileID: 0}
+  points: []
 --- !u!1001 &1342552525
 Prefab:
   m_ObjectHideFlags: 0
@@ -1184,6 +1201,22 @@ Transform:
   m_PrefabParentObject: {fileID: 4208636864039534, guid: 3fc62ea681c6d452194503f48ddf00a8,
     type: 2}
   m_PrefabInternal: {fileID: 1342552525}
+--- !u!1 &1350091756 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1765482798566470, guid: 72eac501d3533433a9c494a1a18c2f33,
+    type: 2}
+  m_PrefabInternal: {fileID: 1584078370}
+--- !u!114 &1350091760
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1350091756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46a8424e0d54b4f8dba83606f3a34d13, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1475070137 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4941525825851812, guid: 72eac501d3533433a9c494a1a18c2f33,
