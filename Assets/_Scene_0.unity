@@ -494,7 +494,6 @@ MonoBehaviour:
   castles:
   - {fileID: 1522788372505504, guid: 091881044cc404e19ba92ff5dbdbeaa0, type: 2}
   - {fileID: 1493606534553550, guid: 52ba9297e613d4d428b82bcb032c7740, type: 2}
-  - {fileID: 1927330619550434, guid: 81f4d2309e82248adad946b54ebe126c, type: 2}
   - {fileID: 1782425268878552, guid: 5fa53390a128b4743b84210a998fa6f3, type: 2}
   - {fileID: 1335111267876460, guid: a6fa42ba3607b4025bf35120a2142bfd, type: 2}
   gtLevel: {fileID: 1765350160}
